@@ -1,4 +1,4 @@
-package test;
+package base;
 
 public class Dog { // 定义了一个Dog类
     private int age; // 属性或者成员变量

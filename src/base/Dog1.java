@@ -1,4 +1,4 @@
-package test;
+package base;
 
 
 public class Dog1 {// public修饰类

@@ -1,4 +1,4 @@
-package test;
+package base;
 
 
  class UserNotFoundException extends Exception { // 自定义一个异常

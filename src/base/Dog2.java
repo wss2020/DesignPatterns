@@ -1,4 +1,4 @@
-package test;
+package base;
 
 interface Runnable {
     void run();

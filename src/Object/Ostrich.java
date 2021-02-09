@@ -1,15 +1,23 @@
 package Object;
 
-
 public interface Flyable {
-    void fly()；
+    void fly();
+}
+
+public interface Tweetable {
+    void tweet();
+}
+
+public interface EggLayable {
+    void layEgg();
 }
 
 public class FlyAbility implements Flyable {
     @Override
-    public void fly() { //...
-    }
+    public void fly() { }
 }
+
+
 //省略Tweetable/TweetAbility/EggLayable/EggLayAbility
 
 public class Ostrich implements Tweetable, EggLayable {//鸵鸟

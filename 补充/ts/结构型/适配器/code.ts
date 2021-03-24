@@ -59,3 +59,5 @@ console.log('Client: But I can work with it via the Adapter:');
 const adapter = new Adapter(adaptee);
 clientCode(adapter);
 
+
+

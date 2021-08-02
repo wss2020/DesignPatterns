@@ -61,6 +61,7 @@ class FlyweightFactory {
         console.log(`\nFlyweightFactory: I have ${count} flyweights:`);
         for (const key in this.flyweights) {
             console.log(key);
+            // console.log(this.flyweights[key] )
         }
     }
 }
